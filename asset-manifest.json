@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/deployFE/static/css/main.07836e24.css",
+    "main.js": "/deployFE/static/js/main.68e05f9d.js",
+    "static/media/backgorund2.webp": "/deployFE/static/media/backgorund2.a01c5ceb699a0b21c6ea.webp",
+    "index.html": "/deployFE/index.html",
+    "main.07836e24.css.map": "/deployFE/static/css/main.07836e24.css.map",
+    "main.68e05f9d.js.map": "/deployFE/static/js/main.68e05f9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07836e24.css",
+    "static/js/main.68e05f9d.js"
+  ]
+}
