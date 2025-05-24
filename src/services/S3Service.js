@@ -1,7 +1,7 @@
 import axios from 'axios';
 import showToast from '../utils/AppUtils';
 
-const API_BASE_URL = 'http://localhost:8080/s3';
+const API_BASE_URL = 'http://127.0.0.1:4040/s3';
 
 const S3Service = {
     /**

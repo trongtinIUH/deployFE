@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:8080/user"; // Địa chỉ API
+const API_BASE_URL = "http://zolo.ap-southeast-1.elasticbeanstalk.com/user"; // Địa chỉ API
 
 const UserService = {
   post: async (url, data) => {
