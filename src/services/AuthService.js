@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://127.0.0.1:4040/auth';
+const API_BASE_URL = 'http://zolo.ap-southeast-1.elasticbeanstalk.com/auth';
 
 const AuthService = {
     post: async (url, data) => {

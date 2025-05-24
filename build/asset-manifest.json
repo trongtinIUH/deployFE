@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/deployFE/static/css/main.07836e24.css",
-    "main.js": "/deployFE/static/js/main.68e05f9d.js",
-    "static/media/backgorund2.webp": "/deployFE/static/media/backgorund2.a01c5ceb699a0b21c6ea.webp",
-    "index.html": "/deployFE/index.html",
-    "main.07836e24.css.map": "/deployFE/static/css/main.07836e24.css.map",
-    "main.68e05f9d.js.map": "/deployFE/static/js/main.68e05f9d.js.map"
+    "main.css": "/static/css/main.5efba8de.css",
+    "main.js": "/static/js/main.317c4e54.js",
+    "static/media/backgorund2.webp": "/static/media/backgorund2.a01c5ceb699a0b21c6ea.webp",
+    "index.html": "/index.html",
+    "main.5efba8de.css.map": "/static/css/main.5efba8de.css.map",
+    "main.317c4e54.js.map": "/static/js/main.317c4e54.js.map"
   },
   "entrypoints": [
-    "static/css/main.07836e24.css",
-    "static/js/main.68e05f9d.js"
+    "static/css/main.5efba8de.css",
+    "static/js/main.317c4e54.js"
   ]
 }
