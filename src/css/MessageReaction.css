@@ -1,0 +1,113 @@
+.reactions {
+  display: flex;
+  justify-content: flex-start;
+  /* Căn trái */
+  gap: 5px;
+
+  position: relative;
+}
+
+.emoji {
+
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.3s ease;
+  opacity: 0;
+  /* Ẩn các emoji mặc định */
+}
+
+.emoji:hover {
+  transform: scale(1.2);
+  /* Phóng to khi di chuột */
+}
+
+.reactions .like {
+  position: absolute;
+  right: -10px;
+  top: 20px;
+  opacity: 0.5;
+  /* Chỉ hiển thị nút like */
+}
+
+.reactions:hover .emoji {
+  opacity: 1;
+  /* Hiển thị tất cả emoji khi hover vào container reactions */
+}
+
+.emoji.active {
+  color: #007bff;
+  /* Thêm màu sắc cho reactions đã chọn */
+}
+
+
+
+.close-reactions {
+  position: relative;
+  bottom: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  color: red;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+  margin-left: 1px;
+  /* Cách biệt nút x với reaction cuối */
+}
+
+.reactions:hover .emoji,
+.reactions:hover .close-reactions {
+  opacity: 1;
+}
+
+.close-reactions:hover {
+  transform: scale(1.2);
+}
+
+
+.reaction-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+}
+
+
+.reaction-icons-wrapper {
+  position: relative;
+  top: 20px;
+  gap: 6px;
+  padding: 4px 10px;
+  border: 1.5px solid #d1d1d1;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  display: inline-flex;
+  align-items: center;
+}
+
+.reaction-icon {
+  font-size: 1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: default;
+  user-select: none;
+}
+
+.reaction-count-small {
+  font-size: 0.65rem;
+  margin-left: 3px;
+  color: #444;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+.total-reactions-badge {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #555;
+  background: #ddd;
+  border-radius: 10px;
+  padding: 0 6px;
+  margin-left: 8px;
+  user-select: none;
+  align-self: center;
+}
