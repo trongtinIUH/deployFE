@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://zolo.ap-southeast-1.elasticbeanstalk.com/api';
+const API_BASE_URL = 'https://ade7-109-237-64-222.ngrok-free.app/api';
 
 const ApiService = {
     post: async (url, data) => {

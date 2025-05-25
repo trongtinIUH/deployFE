@@ -9,7 +9,7 @@ export const WebSocketProvider = ({ children, userId }) => {
     useEffect(() => {
         // Kết nối WebSocket
         socketRef.current = new WebSocket(
-            `ws://zolo.ap-southeast-1.elasticbeanstalk.com/socket.io?userId=${userId}`
+            `ws://ade7-109-237-64-222.ngrok-free.app/socket.io?userId=${userId}`
         );
 
         socketRef.current.onopen = () => {
