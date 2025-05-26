@@ -7,7 +7,7 @@ export const WebSocketProvider = ({ children, userId }) => {
     const listenersRef = useRef([]); // Để lưu danh sách các listener
 
     useEffect(() => {
-        // Kết nối WebSocket
+        // Kết nối WebSocket deploy FE web
         socketRef.current = new WebSocket(
             `wss://deploybe-cnm-production.up.railway.app/ws?userId=${userId}`
         );
