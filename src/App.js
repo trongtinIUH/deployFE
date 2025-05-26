@@ -15,7 +15,7 @@ function App() {
     const location = useLocation();
     const [isLoading, setIsLoading] = useState(true);
 
-    // Kiểm tra trạng thái đăng nhập hihihhhh
+    // Kiểm tra trạng thái đăng nhập
     useEffect(() => {
         const idToken = localStorage.getItem('idToken');
 
