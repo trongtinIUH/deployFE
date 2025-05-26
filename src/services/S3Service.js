@@ -1,7 +1,7 @@
 import axios from 'axios';
 import showToast from '../utils/AppUtils';
 
-const API_BASE_URL = 'https://ade7-109-237-64-222.ngrok-free.app/s3';
+const API_BASE_URL = 'https://deploybe-cnm-production.up.railway.app/s3';
 
 const S3Service = {
     /**

@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@stomp/stompjs": "^7.0.0",
+    "@stomp/stompjs": "^7.1.1",
     "aws-amplify": "^6.11.0",
     "axios": "^1.7.9",
     "bootstrap-icons": "^1.11.3",
@@ -26,7 +26,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://ade7-109-237-64-222.ngrok-free.app/auth';
+const API_BASE_URL = 'https://deploybe-cnm-production.up.railway.app/auth';
 
 const AuthService = {
     post: async (url, data) => {

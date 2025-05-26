@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://ade7-109-237-64-222.ngrok-free.app/user"; // Địa chỉ API
+const API_BASE_URL = "https://deploybe-cnm-production.up.railway.app/user"; // Địa chỉ API
 
 const UserService = {
   post: async (url, data) => {

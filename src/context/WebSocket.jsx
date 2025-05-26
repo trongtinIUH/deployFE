@@ -9,7 +9,7 @@ export const WebSocketProvider = ({ children, userId }) => {
     useEffect(() => {
         // Kết nối WebSocket
         socketRef.current = new WebSocket(
-            `ws://ade7-109-237-64-222.ngrok-free.app/socket.io?userId=${userId}`
+            `wss://deploybe-cnm-production.up.railway.app/ws?userId=${userId}`
         );
 
         socketRef.current.onopen = () => {
